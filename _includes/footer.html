@@ -14,13 +14,10 @@
           </li>
           {% endif %}
 
-
-
-{% endif %}
- <!-- QQ：Add 2017-05-29 by： Bomb-->
+         <!-- QQ：Add 2017-05-29 by： Bomb-->
           {% if site.social.qq %}
           <li>
-            <a  target="_blank" title="FSCAD的QQ"   href="http://wpa.qq.com/msgrd?v=3&uin={{ site.social.qq }}&site=qq&menu=yes">
+            <a target="_blank" title="FSCAD的QQ" href="http://wpa.qq.com/msgrd?v=3&uin={{ site.social.qq }}&site=qq&menu=yes">
              <!-- <span class="icon  icon-qq">-->
               <i class="social fa fa-qq fa-2x"></i>
               <span class="label">QQ</span>
@@ -28,12 +25,9 @@
               </span>
             </a>
           </li>
-{% endif %}
+          {% endif %}
 
-
-
-
-          {% if site.social.github %}
+         {% if site.social.github %}
           <!-- Github -->
           <li class="navigation__item_social">
             <a href="https://github.com/{{site.social.github}}" title="@{{site.social.github}} 的 Github" target="_blank">
